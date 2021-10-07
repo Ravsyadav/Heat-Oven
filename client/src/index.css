@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body,html {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  color: black !important;
+}
+
+.navbar-brand{
+  color: black !important;
+}
+
+h1{
+  font-size: 20px !important
+}
+
+.flex-container{
+  display: flex !important;
+}
+
+.btn{
+  background-color: red !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.btn:hover{
+ background-color: darkred !important;
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.fa-plus{
+  color:green;
+  margin: 5px;
+}
+
+.fa-minus{
+  color:red;
+  margin: 5px;
+}
+
+.fa-trash{
+  color:red;
+}
+
+.fa-shopping-cart{
+  font-size: 25px;
+  position:absolute;
+  top:30px;
+}
+
+.fa-user{
+  font-size: 26px;
+  position:absolute;
+  top:28px;
+}
+
+.size{
+  font-size:25px;
+}
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+.adminfunctions{
+  padding: 10px;
+  background-color: brown;
+
+}
+.adminfunctions li{
+  list-style-type:none !important;
+  display: inline !important;
+}
+.adminfunctions li a{
+  color:whitesmoke !important;
+  padding: 30px !important;
+}
+
+td, th, tr{
+  text-align: left !important;
+}

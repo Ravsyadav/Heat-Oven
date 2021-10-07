@@ -1,0 +1,1 @@
+/* <h1 className="text-start">Pizza Id = {match.params.pizzaid}</h1> */
