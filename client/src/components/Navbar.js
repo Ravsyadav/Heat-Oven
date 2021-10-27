@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { logoutUser } from '../actions/userActions'
+import logo from '../image/logo.png'
 
 export default function Navbar() {
 
@@ -13,7 +14,9 @@ export default function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-body rounded">
                 <a className="navbar-brand" href="/">
-                    PIZZA PALACE
+                    <div className="logo">
+                        <img src={logo} alt="image not found" height="65"/>
+                    </div>
                 </a>
                 <button
                     className="navbar-toggler"
